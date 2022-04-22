@@ -49,6 +49,10 @@ cd programming-course-project
 cd Frontend
 ```
 ```
+# Acess Web folder
+cd web
+```
+```
 # Install de dependencies
 npm install
 ```
