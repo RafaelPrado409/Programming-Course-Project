@@ -25,7 +25,7 @@ It's a tech course plataform that was created to study the technologies that wer
 Before start, check if you attend the following requisites:
 * You installed the LTS [NodeJS](https://nodejs.org/en/) version?
 * You installed [VSCode](https://code.visualstudio.com/)?
-* You installed [Docker](https://www.docker.com/products/docker-desktop/)
+* You installed [Docker](https://www.docker.com/products/docker-desktop/)?
 * You installed the latest [Git](https://git-scm.com/) version?
 
 ## 🚀 Installing Happy
@@ -54,7 +54,7 @@ npm install
 ```
 ```
 # Run the project
-npm run start
+npm run dev
 ```
 ### Backend:
 
@@ -73,13 +73,37 @@ cd programming-course-project
 cd Backend
 ```
 ```
+# Acess classroom folder
+cd classroom
+```
+```
 # Install de dependencies
 npm install
 ```
 ```
 # Run the project
-npm run start
+npm run start:dev
 ```
+### Open another terminal
+
+```
+Back to the Backend folder
+cd..
+```
+
+```
+# Acess purchases folder
+cd purchases
+```
+```
+# Install de dependencies
+npm install
+```
+```
+# Run the project
+npm run start:dev
+```
+
 ## 📝 Licença
 
 This project is license. Check the file [LICENSE](LICENSE.md) for more details
